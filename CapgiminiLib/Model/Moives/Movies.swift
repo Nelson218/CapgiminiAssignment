@@ -48,12 +48,6 @@ public struct Movie: Decodable, Encodable, LogoImageProtocol {
         popularity = try container.decode(type(of: popularity), forKey: .popularity)
         releaseDate = try container.decode(type(of: releaseDate), forKey: .releaseDate)
     }
-    
-    public func throwingFunc(value: Bool) throws {
-        if value {
-            throw CommonError.unknownError(errorString: "Error")
-        }
-    }
 }
 
 extension Movie {

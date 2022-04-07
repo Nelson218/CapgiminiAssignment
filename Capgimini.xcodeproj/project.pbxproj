@@ -60,6 +60,11 @@
 		1E3F5EDA27FF004A00D25717 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5ECD27FF004900D25717 /* CreditsView.swift */; };
 		1E3F5EDB27FF004A00D25717 /* MovieDetailServiceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5ECE27FF004900D25717 /* MovieDetailServiceHelper.swift */; };
 		1E3F5EDC27FF004A00D25717 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5ECF27FF004900D25717 /* MovieDetailViewController.swift */; };
+		1E3F5EE327FF080D00D25717 /* MovieDetailTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5EDE27FF080D00D25717 /* MovieDetailTest.swift */; };
+		1E3F5EE427FF080D00D25717 /* MovieTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5EDF27FF080D00D25717 /* MovieTest.swift */; };
+		1E3F5EE527FF080D00D25717 /* CreditTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5EE027FF080D00D25717 /* CreditTest.swift */; };
+		1E3F5EE627FF080D00D25717 /* ReviewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5EE127FF080D00D25717 /* ReviewTest.swift */; };
+		1E3F5EE727FF080E00D25717 /* CoderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5EE227FF080D00D25717 /* CoderHelper.swift */; };
 		D92FC25CCA92DBC57B13EB8C /* Pods_Capgimini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE837DC300D46AC4CFA7495 /* Pods_Capgimini.framework */; };
 /* End PBXBuildFile section */
 
@@ -172,6 +177,11 @@
 		1E3F5ECD27FF004900D25717 /* CreditsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
 		1E3F5ECE27FF004900D25717 /* MovieDetailServiceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailServiceHelper.swift; sourceTree = "<group>"; };
 		1E3F5ECF27FF004900D25717 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		1E3F5EDE27FF080D00D25717 /* MovieDetailTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailTest.swift; sourceTree = "<group>"; };
+		1E3F5EDF27FF080D00D25717 /* MovieTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTest.swift; sourceTree = "<group>"; };
+		1E3F5EE027FF080D00D25717 /* CreditTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditTest.swift; sourceTree = "<group>"; };
+		1E3F5EE127FF080D00D25717 /* ReviewTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTest.swift; sourceTree = "<group>"; };
+		1E3F5EE227FF080D00D25717 /* CoderHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoderHelper.swift; sourceTree = "<group>"; };
 		81BF21B7D2100BF9EB7888B4 /* Pods-Capgimini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capgimini.release.xcconfig"; path = "Target Support Files/Pods-Capgimini/Pods-Capgimini.release.xcconfig"; sourceTree = "<group>"; };
 		DFE837DC300D46AC4CFA7495 /* Pods_Capgimini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Capgimini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF872174785F102E1BE28E7A /* Pods-Capgimini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capgimini.debug.xcconfig"; path = "Target Support Files/Pods-Capgimini/Pods-Capgimini.debug.xcconfig"; sourceTree = "<group>"; };
@@ -337,6 +347,8 @@
 		1E3F5E7827FEDB6200D25717 /* CapgiminiLibTests */ = {
 			isa = PBXGroup;
 			children = (
+				1E3F5EE227FF080D00D25717 /* CoderHelper.swift */,
+				1E3F5EDD27FF080D00D25717 /* Model Tests */,
 				1E3F5E7927FEDB6200D25717 /* CapgiminiLibTests.swift */,
 			);
 			path = CapgiminiLibTests;
@@ -497,6 +509,17 @@
 				1E3F5ECB27FF004900D25717 /* CastCrewView.swift */,
 			);
 			path = CastCrewView;
+			sourceTree = "<group>";
+		};
+		1E3F5EDD27FF080D00D25717 /* Model Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1E3F5EDE27FF080D00D25717 /* MovieDetailTest.swift */,
+				1E3F5EDF27FF080D00D25717 /* MovieTest.swift */,
+				1E3F5EE027FF080D00D25717 /* CreditTest.swift */,
+				1E3F5EE127FF080D00D25717 /* ReviewTest.swift */,
+			);
+			path = "Model Tests";
 			sourceTree = "<group>";
 		};
 		6F8B733380A0A27F689D9588 /* Pods */ = {
@@ -830,6 +853,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E3F5E7A27FEDB6200D25717 /* CapgiminiLibTests.swift in Sources */,
+				1E3F5EE427FF080D00D25717 /* MovieTest.swift in Sources */,
+				1E3F5EE527FF080D00D25717 /* CreditTest.swift in Sources */,
+				1E3F5EE327FF080D00D25717 /* MovieDetailTest.swift in Sources */,
+				1E3F5EE627FF080D00D25717 /* ReviewTest.swift in Sources */,
+				1E3F5EE727FF080E00D25717 /* CoderHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1013,6 +1041,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -1043,6 +1072,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
