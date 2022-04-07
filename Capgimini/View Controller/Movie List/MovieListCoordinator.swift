@@ -18,6 +18,10 @@ public final class MovieCoordinator: BaseCoOrdinator {
     }
     
     private func movieSelected(movie: Movie) {
+        let movieDetailCoordinator = MovieDetailCoordinator(movie: movie)
         
+        if let navController = rootViewController as? UINavigationController {
+            navController.pushViewController(movieDetailCoordinator.rootViewController, animated: true)
+        }
     }
 }

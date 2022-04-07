@@ -3,14 +3,13 @@
 import Foundation
 extension Movies {
     private enum EndPoints: String {
-        case root = "movie/now_playing"
+        case root = "movie/top_rated"
         case similarMovie = "movie/"
     }
     
     @discardableResult
-    public static func fetch(forPage pageNumber: Int = 1, completionHandler: @escaping (Self) -> Void, failure: @escaping (ErrorConfig) -> Void) -> URLSessionDataTask {
-        let additionalQueryItems = URLQueryItem(name: "page", value: "\(pageNumber)")
-        let resource = Resource<Self>(forURL: EndPoints.root.rawValue, additionalQueryItems: additionalQueryItems, decoder: JSONDecoder())
+    public static func fetch(completionHandler: @escaping (Self) -> Void, failure: @escaping (ErrorConfig) -> Void) -> URLSessionDataTask {
+        let resource = Resource<Self>(forURL: EndPoints.root.rawValue, decoder: JSONDecoder())
         return fetch(resource: resource, completionHandler: completionHandler, failure: failure)
     }
     

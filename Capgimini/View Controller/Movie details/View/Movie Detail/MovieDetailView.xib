@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MovieDetailView" customModule="BookMyShowDemoApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="357"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2m0-jc-e4l">
+                    <rect key="frame" x="5" y="5" width="404" height="347"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="NkO-7e-OeC">
+                            <rect key="frame" x="5" y="5" width="394" height="337"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JzD-vT-sAG">
+                                    <rect key="frame" x="0.0" y="0.0" width="394" height="221.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="JzD-vT-sAG" secondAttribute="height" multiplier="16:9" id="JXD-19-c0T"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="394" placeholderIntrinsicHeight="infinite" text="TItle" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Is-Er-ELg">
+                                    <rect key="frame" x="0.0" y="231.5" width="394" height="18"/>
+                                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p8I-xd-MDo" userLabel="Genre">
+                                    <rect key="frame" x="0.0" y="259.5" width="394" height="77.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genre: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="New-c1-KHW">
+                                            <rect key="frame" x="0.0" y="0.0" width="72.5" height="26"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="72.5" id="wMc-mK-wBO"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="300" verticalHuggingPriority="251" horizontalCompressionResistancePriority="500" text="Genre Genre Genre Genre Genre Genre Genre Genre Genre " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSw-YN-ZhR">
+                                            <rect key="frame" x="82.5" y="0.0" width="306.5" height="72.5"/>
+                                            <fontDescription key="fontDescription" name="KhmerSangamMN" family="Khmer Sangam MN" pointSize="15"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="HSw-YN-ZhR" firstAttribute="top" secondItem="New-c1-KHW" secondAttribute="top" id="3qq-x8-5w1"/>
+                                        <constraint firstItem="HSw-YN-ZhR" firstAttribute="leading" secondItem="New-c1-KHW" secondAttribute="trailing" constant="10" id="55v-tM-Kny"/>
+                                        <constraint firstAttribute="bottom" secondItem="HSw-YN-ZhR" secondAttribute="bottom" constant="5" id="K8J-ZR-Njd"/>
+                                        <constraint firstItem="New-c1-KHW" firstAttribute="leading" secondItem="p8I-xd-MDo" secondAttribute="leading" id="Mo4-fn-nHF"/>
+                                        <constraint firstAttribute="trailing" secondItem="HSw-YN-ZhR" secondAttribute="trailing" constant="5" id="SKN-br-fIz"/>
+                                        <constraint firstItem="New-c1-KHW" firstAttribute="top" secondItem="p8I-xd-MDo" secondAttribute="top" id="kPF-OK-vV9"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="NkO-7e-OeC" secondAttribute="bottom" constant="5" id="31X-bN-hJu"/>
+                        <constraint firstItem="NkO-7e-OeC" firstAttribute="leading" secondItem="2m0-jc-e4l" secondAttribute="leading" constant="5" id="MrT-SH-wcm"/>
+                        <constraint firstAttribute="trailing" secondItem="NkO-7e-OeC" secondAttribute="trailing" constant="5" id="pzh-Ny-Bqg"/>
+                        <constraint firstItem="NkO-7e-OeC" firstAttribute="top" secondItem="2m0-jc-e4l" secondAttribute="top" constant="5" id="uG9-AQ-FVR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="2m0-jc-e4l" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="Mhz-ob-XHv"/>
+                <constraint firstAttribute="trailing" secondItem="2m0-jc-e4l" secondAttribute="trailing" constant="5" id="N1F-3j-g43"/>
+                <constraint firstAttribute="bottom" secondItem="2m0-jc-e4l" secondAttribute="bottom" constant="5" id="Vpi-HU-m8i"/>
+                <constraint firstItem="2m0-jc-e4l" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="YiR-Zv-Ma2"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentView" destination="2m0-jc-e4l" id="ocO-bO-l8e"/>
+                <outlet property="genreLabel" destination="HSw-YN-ZhR" id="7T8-AU-Ma3"/>
+                <outlet property="logoImageView" destination="JzD-vT-sAG" id="G5k-rE-a5Q"/>
+                <outlet property="titleLabel" destination="2Is-Er-ELg" id="xop-JR-MxJ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="-22.433035714285712"/>
+        </view>
+    </objects>
+</document>

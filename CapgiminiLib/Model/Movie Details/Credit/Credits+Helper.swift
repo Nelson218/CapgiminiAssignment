@@ -35,15 +35,15 @@ extension Credits {
     
     private func createCrewDetail() -> [CastCrewDetail] {
         
-        var allFilteredCrew = [CastCrewDetail?]()
-        allFilteredCrew.append(createFilterdCastCrew(forDepartment: .art, titleName: "Art"))
-        allFilteredCrew.append(createFilterdCastCrew(forDepartment: .production, titleName: "Production"))
-        allFilteredCrew.append(createFilterdCastCrew(forDepartment: .crew, titleName: "Crew"))
-        allFilteredCrew.append(createFilterdCastCrew(forDepartment: .sound, titleName: "Sound"))
-        allFilteredCrew.append(createFilterdCastCrew(forDepartment: .camera, titleName: "Camera"))
-        allFilteredCrew.append(createFilterdCastCrew(forDepartment: .writing, titleName: "Writing"))
-        allFilteredCrew.append(createFilterdCastCrew(forDepartment: .directing, titleName: "Directing"))
-        allFilteredCrew.append(createFilterdCastCrew(forDepartment: .unknown, titleName: "Unknown"))
+        let allFilteredCrew = [
+            createFilterdCastCrew(forDepartment: .art, titleName: "Art"),
+            createFilterdCastCrew(forDepartment: .production, titleName: "Production"),
+            createFilterdCastCrew(forDepartment: .crew, titleName: "Crew"),
+            createFilterdCastCrew(forDepartment: .sound, titleName: "Sound"),
+            createFilterdCastCrew(forDepartment: .camera, titleName: "Camera"),
+            createFilterdCastCrew(forDepartment: .writing, titleName: "Writing"),
+            createFilterdCastCrew(forDepartment: .directing, titleName: "Directing"),
+            ]
         
         return allFilteredCrew.compactMap { $0 }
     }
