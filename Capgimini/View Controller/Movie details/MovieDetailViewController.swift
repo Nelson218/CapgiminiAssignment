@@ -57,9 +57,9 @@ final class MovieDetailViewController: UIViewController, StoryboardLoadable {
     
     private func showCredit(credit: Credits) {
         let insertViewAt = 1
-        let creditView = CreditsView.fromNib
-        creditView.prepare(credit: credit) { [weak self] in
-            guard let `self` = self else { return }
+        CreditViewModel(credit: credit) { details in
+            let creditView = CreditsView.fromNib
+            creditView.prepare(castCrew: details)
             if self.vStackView.arrangedSubviews.count >= insertViewAt {
                 self.vStackView.insertArrangedSubview(creditView, at: insertViewAt)
             } else {

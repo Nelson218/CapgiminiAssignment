@@ -7,19 +7,11 @@ class CreditsView: UIView, NibLoadable {
 
     @IBOutlet private weak var mainStackView: UIStackView!
 
-    public func prepare(credit: Credits, onFinish: @escaping (() -> Void)) {
-        DispatchQueue.global(qos: .background).async {
-            let castCrewDetail = credit.getCastCrewDetail()
-            
-            DispatchQueue.main.async {
-                for castCrew in castCrewDetail {
-                    let castCrewView = CastCrewView.fromNib
-                    castCrewView.prepare(castCrew: castCrew)
-                    self.mainStackView.addArrangedSubview(castCrewView)
-                }
-                
-                onFinish()
-            }
+    public func prepare(castCrew: [CastCrewDetail]) {
+        for castCrew in castCrew {
+            let castCrewView = CastCrewView.fromNib
+            castCrewView.prepare(castCrew: castCrew)
+            self.mainStackView.addArrangedSubview(castCrewView)
         }
     }
     

@@ -2,7 +2,7 @@
 
 import Foundation
 extension Movies {
-    private enum EndPoints: String {
+    internal enum EndPoints: String {
         case root = "movie/top_rated"
         case similarMovie = "movie/"
     }

@@ -12,8 +12,6 @@
 		1E3F5E3027FED94C00D25717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3F5E2F27FED94C00D25717 /* Assets.xcassets */; };
 		1E3F5E3327FED94C00D25717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3F5E3127FED94C00D25717 /* LaunchScreen.storyboard */; };
 		1E3F5E3E27FED94C00D25717 /* CapgiminiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5E3D27FED94C00D25717 /* CapgiminiTests.swift */; };
-		1E3F5E4827FED94D00D25717 /* CapgiminiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5E4727FED94D00D25717 /* CapgiminiUITests.swift */; };
-		1E3F5E4A27FED94D00D25717 /* CapgiminiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5E4927FED94D00D25717 /* CapgiminiUITestsLaunchTests.swift */; };
 		1E3F5E5727FEDB2E00D25717 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5E5627FEDB2E00D25717 /* BaseCoordinator.swift */; };
 		1E3F5E6127FEDB5300D25717 /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5E5A27FEDB5200D25717 /* MovieListViewController.swift */; };
 		1E3F5E6227FEDB5300D25717 /* MovieListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5E5B27FEDB5200D25717 /* MovieListCoordinator.swift */; };
@@ -65,18 +63,13 @@
 		1E3F5EE527FF080D00D25717 /* CreditTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5EE027FF080D00D25717 /* CreditTest.swift */; };
 		1E3F5EE627FF080D00D25717 /* ReviewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5EE127FF080D00D25717 /* ReviewTest.swift */; };
 		1E3F5EE727FF080E00D25717 /* CoderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5EE227FF080D00D25717 /* CoderHelper.swift */; };
+		1E3F5EEB27FF108500D25717 /* MovieListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5EEA27FF108500D25717 /* MovieListViewModelTest.swift */; };
+		1E3F5EED27FF127600D25717 /* CreditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3F5EEC27FF127600D25717 /* CreditViewModel.swift */; };
 		D92FC25CCA92DBC57B13EB8C /* Pods_Capgimini.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE837DC300D46AC4CFA7495 /* Pods_Capgimini.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		1E3F5E3A27FED94C00D25717 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1E3F5E1B27FED94900D25717 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E3F5E2227FED94900D25717;
-			remoteInfo = Capgimini;
-		};
-		1E3F5E4427FED94D00D25717 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1E3F5E1B27FED94900D25717 /* Project object */;
 			proxyType = 1;
@@ -129,9 +122,6 @@
 		1E3F5E3427FED94C00D25717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E3F5E3927FED94C00D25717 /* CapgiminiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapgiminiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E3F5E3D27FED94C00D25717 /* CapgiminiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapgiminiTests.swift; sourceTree = "<group>"; };
-		1E3F5E4327FED94D00D25717 /* CapgiminiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapgiminiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E3F5E4727FED94D00D25717 /* CapgiminiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapgiminiUITests.swift; sourceTree = "<group>"; };
-		1E3F5E4927FED94D00D25717 /* CapgiminiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapgiminiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1E3F5E5627FEDB2E00D25717 /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		1E3F5E5A27FEDB5200D25717 /* MovieListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		1E3F5E5B27FEDB5200D25717 /* MovieListCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListCoordinator.swift; sourceTree = "<group>"; };
@@ -182,6 +172,8 @@
 		1E3F5EE027FF080D00D25717 /* CreditTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditTest.swift; sourceTree = "<group>"; };
 		1E3F5EE127FF080D00D25717 /* ReviewTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewTest.swift; sourceTree = "<group>"; };
 		1E3F5EE227FF080D00D25717 /* CoderHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoderHelper.swift; sourceTree = "<group>"; };
+		1E3F5EEA27FF108500D25717 /* MovieListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModelTest.swift; sourceTree = "<group>"; };
+		1E3F5EEC27FF127600D25717 /* CreditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewModel.swift; sourceTree = "<group>"; };
 		81BF21B7D2100BF9EB7888B4 /* Pods-Capgimini.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capgimini.release.xcconfig"; path = "Target Support Files/Pods-Capgimini/Pods-Capgimini.release.xcconfig"; sourceTree = "<group>"; };
 		DFE837DC300D46AC4CFA7495 /* Pods_Capgimini.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Capgimini.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF872174785F102E1BE28E7A /* Pods-Capgimini.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capgimini.debug.xcconfig"; path = "Target Support Files/Pods-Capgimini/Pods-Capgimini.debug.xcconfig"; sourceTree = "<group>"; };
@@ -198,13 +190,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1E3F5E3627FED94C00D25717 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E3F5E4027FED94D00D25717 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,7 +227,6 @@
 			children = (
 				1E3F5E2527FED94900D25717 /* Capgimini */,
 				1E3F5E3C27FED94C00D25717 /* CapgiminiTests */,
-				1E3F5E4627FED94D00D25717 /* CapgiminiUITests */,
 				1E3F5E6C27FEDB6200D25717 /* CapgiminiLib */,
 				1E3F5E7827FEDB6200D25717 /* CapgiminiLibTests */,
 				1E3F5E2427FED94900D25717 /* Products */,
@@ -256,7 +240,6 @@
 			children = (
 				1E3F5E2327FED94900D25717 /* Capgimini.app */,
 				1E3F5E3927FED94C00D25717 /* CapgiminiTests.xctest */,
-				1E3F5E4327FED94D00D25717 /* CapgiminiUITests.xctest */,
 				1E3F5E6B27FEDB6200D25717 /* CapgiminiLib.framework */,
 				1E3F5E7227FEDB6200D25717 /* CapgiminiLibTests.xctest */,
 			);
@@ -281,17 +264,9 @@
 			isa = PBXGroup;
 			children = (
 				1E3F5E3D27FED94C00D25717 /* CapgiminiTests.swift */,
+				1E3F5EEA27FF108500D25717 /* MovieListViewModelTest.swift */,
 			);
 			path = CapgiminiTests;
-			sourceTree = "<group>";
-		};
-		1E3F5E4627FED94D00D25717 /* CapgiminiUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1E3F5E4727FED94D00D25717 /* CapgiminiUITests.swift */,
-				1E3F5E4927FED94D00D25717 /* CapgiminiUITestsLaunchTests.swift */,
-			);
-			path = CapgiminiUITests;
 			sourceTree = "<group>";
 		};
 		1E3F5E5827FEDB3700D25717 /* View Controller */ = {
@@ -455,9 +430,9 @@
 			isa = PBXGroup;
 			children = (
 				1E3F5EBE27FF004900D25717 /* MovieDetailCoordinator.swift */,
-				1E3F5EBF27FF004900D25717 /* View */,
 				1E3F5ECE27FF004900D25717 /* MovieDetailServiceHelper.swift */,
 				1E3F5ECF27FF004900D25717 /* MovieDetailViewController.swift */,
+				1E3F5EBF27FF004900D25717 /* View */,
 			);
 			path = "Movie details";
 			sourceTree = "<group>";
@@ -498,6 +473,7 @@
 				1E3F5EC927FF004900D25717 /* CastCrewView */,
 				1E3F5ECC27FF004900D25717 /* CreditsView.xib */,
 				1E3F5ECD27FF004900D25717 /* CreditsView.swift */,
+				1E3F5EEC27FF127600D25717 /* CreditViewModel.swift */,
 			);
 			path = Credits;
 			sourceTree = "<group>";
@@ -584,24 +560,6 @@
 			productReference = 1E3F5E3927FED94C00D25717 /* CapgiminiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1E3F5E4227FED94D00D25717 /* CapgiminiUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E3F5E5327FED94D00D25717 /* Build configuration list for PBXNativeTarget "CapgiminiUITests" */;
-			buildPhases = (
-				1E3F5E3F27FED94D00D25717 /* Sources */,
-				1E3F5E4027FED94D00D25717 /* Frameworks */,
-				1E3F5E4127FED94D00D25717 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1E3F5E4527FED94D00D25717 /* PBXTargetDependency */,
-			);
-			name = CapgiminiUITests;
-			productName = CapgiminiUITests;
-			productReference = 1E3F5E4327FED94D00D25717 /* CapgiminiUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		1E3F5E6A27FEDB6200D25717 /* CapgiminiLib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E3F5E8027FEDB6200D25717 /* Build configuration list for PBXNativeTarget "CapgiminiLib" */;
@@ -656,10 +614,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 1E3F5E2227FED94900D25717;
 					};
-					1E3F5E4227FED94D00D25717 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 1E3F5E2227FED94900D25717;
-					};
 					1E3F5E6A27FEDB6200D25717 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -684,7 +638,6 @@
 			targets = (
 				1E3F5E2227FED94900D25717 /* Capgimini */,
 				1E3F5E3827FED94C00D25717 /* CapgiminiTests */,
-				1E3F5E4227FED94D00D25717 /* CapgiminiUITests */,
 				1E3F5E6A27FEDB6200D25717 /* CapgiminiLib */,
 				1E3F5E7127FEDB6200D25717 /* CapgiminiLibTests */,
 			);
@@ -709,13 +662,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1E3F5E3727FED94C00D25717 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E3F5E4127FED94D00D25717 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -792,6 +738,7 @@
 				1E3F5EDB27FF004A00D25717 /* MovieDetailServiceHelper.swift in Sources */,
 				1E3F5E6427FEDB5300D25717 /* MovieTableViewCell.swift in Sources */,
 				1E3F5ED627FF004A00D25717 /* SimilarMovieCollectionViewCell.swift in Sources */,
+				1E3F5EED27FF127600D25717 /* CreditViewModel.swift in Sources */,
 				1E3F5E5727FEDB2E00D25717 /* BaseCoordinator.swift in Sources */,
 				1E3F5E2727FED94900D25717 /* AppDelegate.swift in Sources */,
 				1E3F5EBC27FEDDBC00D25717 /* MovieTableViewController.swift in Sources */,
@@ -809,15 +756,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E3F5E3E27FED94C00D25717 /* CapgiminiTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1E3F5E3F27FED94D00D25717 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E3F5E4A27FED94D00D25717 /* CapgiminiUITestsLaunchTests.swift in Sources */,
-				1E3F5E4827FED94D00D25717 /* CapgiminiUITests.swift in Sources */,
+				1E3F5EEB27FF108500D25717 /* MovieListViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -868,11 +807,6 @@
 			isa = PBXTargetDependency;
 			target = 1E3F5E2227FED94900D25717 /* Capgimini */;
 			targetProxy = 1E3F5E3A27FED94C00D25717 /* PBXContainerItemProxy */;
-		};
-		1E3F5E4527FED94D00D25717 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1E3F5E2227FED94900D25717 /* Capgimini */;
-			targetProxy = 1E3F5E4427FED94D00D25717 /* PBXContainerItemProxy */;
 		};
 		1E3F5E7527FEDB6200D25717 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1127,40 +1061,6 @@
 			};
 			name = Release;
 		};
-		1E3F5E5427FED94D00D25717 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nelson.CapgiminiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Capgimini;
-			};
-			name = Debug;
-		};
-		1E3F5E5527FED94D00D25717 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nelson.CapgiminiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Capgimini;
-			};
-			name = Release;
-		};
 		1E3F5E8127FEDB6200D25717 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1283,15 +1183,6 @@
 			buildConfigurations = (
 				1E3F5E5127FED94D00D25717 /* Debug */,
 				1E3F5E5227FED94D00D25717 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1E3F5E5327FED94D00D25717 /* Build configuration list for PBXNativeTarget "CapgiminiUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E3F5E5427FED94D00D25717 /* Debug */,
-				1E3F5E5527FED94D00D25717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
