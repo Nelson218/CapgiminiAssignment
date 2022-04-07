@@ -1,0 +1,6 @@
+framework module Pods_Capgimini {
+  umbrella header "Pods-Capgimini-umbrella.h"
+
+  export *
+  module * { export * }
+}
